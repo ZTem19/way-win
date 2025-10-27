@@ -3,8 +3,8 @@
 
 char* string;
 
-void set(char* str){
-	string = str;
+void initWayWin(const char* title, const unsigned int width, const unsigned int height){
+	printf("Init wayland window with title: %s, width: %d, height: %d", title, width, height);
 }
 
 
